@@ -4,9 +4,13 @@ function mostrar()
 {	
     var nombre;
     var edad;
-    nombre = document.getElementById (elNombre);
-    edad = document.getElementById (laEdad);
-    alert (nombre, edad);
-
+    nombre =  document.getElementById("elNombre").value;
+    edad = document.getElementById("laEdad").value;
+    alert("Usted se llama " + nombre + " y su edad es de " + edad);
 }
-
+/* 
+git clone https//github.com/nomusuario/nomarchivo
+git add .
+git commit /m "....."
+git push
+*/
