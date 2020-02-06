@@ -11,6 +11,6 @@ function mostrar()
 /* 
 git clone https//github.com/nomusuario/nomarchivo
 git add .
-git commit /m "....."
+git commit -m "....."
 git push
 */
